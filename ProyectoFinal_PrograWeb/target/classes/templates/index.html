@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Página Principal</title>
+</head>
+<body>
+    <h1>Bienvenido a la Tienda de Ropa</h1>
+    
+    <nav>
+        <ul>
+            <li><a th:href="@{/clientes}">Listado de Clientes</a></li>
+            <li><a th:href="@{/clientes/nuevo}">Nuevo Cliente</a></li>
+            <li><a th:href="@{/productos}">Listado de Productos</a></li>
+            <li><a th:href="@{/productos/nuevo}">Nuevo Producto</a></li>
+            <li><a th:href="@{/categorias}">Listado de Categorías</a></li>
+            <li><a th:href="@{/categorias/nuevo}">Nueva Categoría</a></li>
+            <li><a th:href="@{/ventas}">Listado de Ventas</a></li>
+            <li><a th:href="@{/ventas/nueva}">Nueva Venta</a></li>
+        </ul>
+    </nav>
+</body>
+</html>

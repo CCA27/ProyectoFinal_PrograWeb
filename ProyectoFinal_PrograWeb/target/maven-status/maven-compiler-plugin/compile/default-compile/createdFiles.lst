@@ -1,0 +1,14 @@
+Servicio\ProductoService.class
+Servicio\ClienteService.class
+Controller\ProductoController.class
+Servicio\CategoriaService.class
+Modelo\Categoria.class
+Modelo\Cliente.class
+Proyecto\Grupo5\ProyectoFinalPrograWebApplication.class
+Controller\CategoriaController.class
+Repositorio\CategoriaRepository.class
+Controller\ClienteController.class
+Modelo\Producto.class
+Repositorio\ProductoRepository.class
+Controller\IndexController.class
+Repositorio\ClienteRepository.class
